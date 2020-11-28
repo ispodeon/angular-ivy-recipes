@@ -7,4 +7,16 @@ import { Component, VERSION } from '@angular/core';
 })
 export class AppComponent  {
   name = 'Angular ' + VERSION.major;
+
+  // recipeSelected = true;
+
+  loadedFeature = 'recipe';
+
+  onNavigate(feature: string){
+    console.log(`Navigate to: ${feature}`);
+    
+    // this.recipeSelected = (feature === 'recipe') ? true : false;
+
+    this.loadedFeature = feature;
+  }
 }
