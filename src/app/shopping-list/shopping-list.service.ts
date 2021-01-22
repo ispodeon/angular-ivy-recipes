@@ -19,7 +19,10 @@ export class ShoppingListService {
     }
 
     addIngredients(ingredients: Ingredient[]){
-        this.ingredients = this.ingredients.concat(ingredients);
+        // for(let ingredient of ingredients){
+        //     this.addIngredient(ingredient);
+        // }
+        this.ingredients.push(...ingredients); // Spread operator makes array to list
         this.ingredientsChanged.emit(this.ingredients.slice());
     }
 }
