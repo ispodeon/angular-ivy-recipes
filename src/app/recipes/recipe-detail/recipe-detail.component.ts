@@ -41,4 +41,9 @@ export class RecipeDetailComponent implements OnInit, OnDestroy {
     this.recipeService.addIngredientsToShoppinglist(this.recipe.ingredients);
   }
 
+  onEditRecipe() {
+    // this.router.navigate(['edit'], {relativeTo: this.route}); 
+    this.router.navigate(['../', this.id, 'edit'], {relativeTo: this.route});
+  }
+
 }
