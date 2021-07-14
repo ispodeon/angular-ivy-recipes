@@ -29,4 +29,9 @@ export class ShoppingListService {
         this.ingredients.push(...ingredients); // Spread operator makes array to list
         this.ingredientsChanged.next(this.ingredients.slice());
     }
+
+    updateIngredient(index: number, newIngredient: Ingredient){
+        this.ingredients[index] = newIngredient;
+        this.ingredientsChanged.next(this.ingredients.slice());
+    }
 }
