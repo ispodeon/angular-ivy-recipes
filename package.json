@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@angular-devkit/architect": "^0.1302.6",
+    "@angular-devkit/architect": "^0.1303.0",
     "@angular-devkit/core": "^13.3.0",
     "@angular-devkit/schematics": "^13.3.0",
     "@angular/animations": "^13.3.0",
