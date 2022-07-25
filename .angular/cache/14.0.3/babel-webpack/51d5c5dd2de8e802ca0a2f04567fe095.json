@@ -1,1 +1,0 @@
-{"ast":null,"code":"export class Ingredient {\n  /*\r\n  public name: string;\r\n  public amount: number;\r\n    constructor(name: string, amount: number){\r\n      this.name = name;\r\n      this.amount = amount;\r\n  }\r\n  */\n  constructor(name, amount) {\n    this.name = name;\n    this.amount = amount;\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}
