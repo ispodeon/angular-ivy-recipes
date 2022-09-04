@@ -10,6 +10,7 @@ export class HeaderComponent{
 
     @Output() featureSelected = new EventEmitter<string>();
 
+    //
     // /*
     // logToConsole(event: MouseEvent){
     //     console.log('Here is the event', event);
