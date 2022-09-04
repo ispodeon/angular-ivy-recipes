@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 
 @Component({
     selector: 'app-header',
@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class HeaderComponent{
     collapsed = true;
 
-    // @Output() featureSelected = new EventEmitter<string>();
+    @Output() featureSelected = new EventEmitter<string>();
 
     // /*
     // logToConsole(event: MouseEvent){
