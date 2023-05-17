@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@angular-devkit/architect": "^0.1501.6",
+    "@angular-devkit/architect": "^0.1502.5",
     "@angular-devkit/core": "^15.2.5",
     "@angular-devkit/schematics": "^15.2.5",
     "@angular/animations": "^15.2.6",
@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^15.2.5",
-    "@angular/cli": "^15.2.5",
+    "@angular/cli": "^16.0.2",
     "@angular/compiler-cli": "^15.2.6",
     "@types/jasmine": "~3.5.0",
     "@types/jasminewd2": "~2.0.3",
